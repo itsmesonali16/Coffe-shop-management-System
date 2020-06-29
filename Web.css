@@ -1,0 +1,403 @@
+body{
+font: sans-serif;
+color:#44318D;
+line-height: 1.6;
+background-color:rgb(23, 1, 51);
+}
+
+body {
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.openBtn {
+  background: #f1f1f1;
+  border: none;
+  padding: 10px 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.openBtn:hover {
+  background: #bbb;
+}
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+}
+
+form{
+  line-height: 10px;
+}
+.overlay-content {
+  position: relative;
+  top: 5%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+  color: black;
+}
+
+.overlay .closebtn:hover {
+  color: #ccc;
+}
+
+.overlay input{
+  top:0;
+  padding:10px; 
+ 
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 70%;
+  background: white;
+}
+h5{
+  font-size:40px;
+ }
+.overlay input:hover {
+  background: #f1f1f1;
+}
+
+
+
+.overlay button:hover {
+  background: #bbb;
+}
+button{
+  background-color:transparent;
+
+}
+footer{font-size:19px; color:white;}
+.container{
+    text-align:center;
+    
+       }
+.con{
+    text-align:center;
+       }
+
+ .box
+ {
+   
+   margin: 50px 50px 50px 50px;
+   background: #fff;
+   margin-top: 100px;
+} 
+
+  
+ .box2
+ {
+  
+
+   margin: 50px 50px 50px 50px;
+   background:#564F6F ;
+   color:white;
+}   
+ 
+  #cpanel{
+   position:fixed;
+  font-size:22px;
+  word-spacing: 1em;
+  text-decoration: none;
+  width:140px;
+  height:500px;
+  background-color: #151719;
+  }
+  
+  
+  #cpanel ul li{
+    list-style: none;
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(100,100,100,1.5);
+    
+  }
+ 
+ 
+ a i{
+  color:white;
+  text-decoration:none; 
+  
+ }
+
+ .header-over
+ {
+  height:120%;
+  width:100%;
+  position: absolute;
+  top:0;
+  left:10%;
+  background-color:rgb(23, 1, 51);
+  z-index:1;
+  opacity:0.6 ;
+
+  }
+
+.logo{
+  margin-top:3%;
+  margin-right:18%; 
+}
+ .over1{
+
+  position: absolute;
+  top:155%;
+  left:30%;
+ color:rgb(23, 1, 51);
+  z-index:1 ;
+  opacity:0.8 ;
+  
+  
+  } 
+a:hover{
+  z-index:1;
+  opacity: 0.6; 
+
+}
+
+span:hover{
+  z-index: 1;
+  opacity: 0.6;
+}
+
+
+  .over2{
+
+  position: absolute;
+  top:155%;
+  left:70%;
+ color:rgb(23, 1, 51);
+  z-index:1 ;
+  opacity:0.8 ;
+  
+  
+  }
+  .over3{
+
+  position: absolute;
+  top:195%;
+  left:30%;
+  color:rgb(23, 1, 51);
+  z-index:1 ;
+  opacity:0.8;
+  
+  
+  }
+   .over4{
+
+  position: absolute;
+  top:195%;
+  left:70%;
+  color:rgb(23, 1, 51);
+  z-index:1 ;
+  opacity:0.8 ;
+  }
+  
+.bt{
+  position: absolute;
+  top:55%;
+  left:35%;
+  
+
+}
+.bt1{
+  position: absolute;
+  top:55%;
+  left:42%;
+  
+
+}
+
+.btn{
+font-size:22px; 
+border: 2px solid #ffff;
+padding: 10px 30px;
+text-decoration: none;
+}
+
+ .box2 img{
+  width:400px;
+  height:400px;
+  position: relative;
+  background-position: 50% 50%;
+  background-repeat:no-repeat;
+  background-size: cover; 
+  word-spacing: 1.5em;
+}
+.box3 img{
+  width:200px;
+  height:200px;
+  position: relative;
+  background-position: 50% 50%;
+  background-repeat:no-repeat;
+  background-size: cover; 
+  box-shadow: 5px black;
+}
+.box3{
+   word-spacing: 1.5em;
+   margin: 50px 50px 50px 50px;
+   background-color: #fff;
+   margin-top: 100px;
+}
+.box4 img{
+  width:200px;
+  height:200px;
+  position: relative;
+  background-position: 50% 50%;
+  background-repeat:no-repeat;
+  background-size: cover; 
+ 
+}
+.box4{
+   word-spacing: 1.5em;
+   margin: 50px 50px 50px 50px;
+   background-color: #fff;
+   margin-top: 100px;
+}
+.box6 img{
+  width:200px;
+  height:200px;
+  position: relative;
+  background-position: 50% 50%;
+  background-repeat:no-repeat;
+  background-size: cover; 
+ 
+}
+.box6{
+   word-spacing: 1.5em;
+   margin: 50px 50px 50px 50px;
+   background-color: #fff;
+   margin-top: 100px;
+}
+.box5 img{
+  width:200px;
+  height:200px;
+  position: relative;
+  background-position: 50% 50%;
+  background-repeat:no-repeat;
+  background-size: cover; 
+ 
+}
+.box5{
+   word-spacing: 1.5em;
+   margin: 50px 50px 50px 50px;
+   background-color: #fff;
+   margin-top: 100px;
+   }
+p
+{
+   text-align: left;
+   font:   40px sans-serif;
+   line-height: 1em;
+}
+.container img{
+  margin-left: 144px;
+}
+
+body{
+  background-repeat: no-repeat;
+  
+}
+body {
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.openBtn {
+  background: #f1f1f1;
+  border: none;
+  padding: 10px 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.openBtn:hover {
+  background: #bbb;
+}
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+}
+.overlay-content {
+  position: relative;
+  top: 5%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+  line-height: 10px;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+  color: white;
+}
+
+.overlay .closebtn:hover {
+  color: #ccc;
+}
+
+.overlay input[type=text]{
+  top:0;
+  padding:10px; 
+  
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 70%;
+  background: white;
+}
+
+.overlay input:hover {
+  background: #f1f1f1;
+}
+
+.overlay input[type=submit] {
+  float: left;
+  
+  background: #ddd;
+  border: none;
+  cursor: pointer;
+}
+
+.overlay button:hover {
+  background: #bbb;
+}
+button{
+  background-color:transparent;
+
+}
+footer{font-size:19px; color:white;}

@@ -1,5 +1,4 @@
 # Coffe-shop-management-System
-# INTRODUCTION
 The whole systems activities are divided into three major parts like customers, employee, and 
 admin. Each one has their own role to perform and system respond accordingly. Several agents 
 have been created using web services and inter agent communication is done. For implementing 

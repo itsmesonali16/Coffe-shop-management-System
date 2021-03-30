@@ -19,3 +19,8 @@ and view certain food order
 # BackEnd
 - PHP
 - MySQL
+
+# Steps To run
+- Save this project in htdocs in XAMPP server
+- Create a database in MySQL name as menu , login ,order so that you can add new menu and oder database will keep track of ur orders
+- Then you can run main.html file on php myadmin sever
